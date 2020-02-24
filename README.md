@@ -39,7 +39,7 @@ if (true){
 }else{
     print("Pão de batata.)
 }
-´´´
+```
 
 
 ##### SWITCH
@@ -55,7 +55,7 @@ case 3: print("Ratato");
 case 4: print("Ratati");
 default: print("Ratate);
 }
-´´´
+```
 
 
 ##### PRINT()
