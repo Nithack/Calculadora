@@ -1,12 +1,12 @@
 # Caculadora Dart v1
 
-###Introdução
+### Introdução
 
 A ideia do projeto é praticar e melhorar o entendimento das sintaxes do Dart ao mesmo
 tempo que que pratico logica de programação
 
 
-###Requisitos do Projeto:
+### Requisitos do Projeto:
 
 - A calculadora deve ter uma função chamada Calcular onde recebe 3 parametros: 
 1. Operador
@@ -20,37 +20,46 @@ tempo que que pratico logica de programação
 - Os paramentros 1, 2 e 3 devem passar por uma verificação para ver se são validos.
 
 
-###Sintaxes Utilizadas
+### Sintaxes Utilizadas
 
-#####FUNÇÕES
+##### FUNÇÕES
 
 Funções pode ser utilizadas como chamada para determinado conjuto de codigo:
 
 - `double somar()`
 
 
-#####IF ELSE
+##### IF ELSE
 
 O bem conhecido "Se, Senão", nos podemmos utilizar essa sintaxe para determinar difirente escolhas diante o determinado problema
 
-- `if (true){print("Pudim ^^")}else{print("Pão de batata.)}`
+```dart
+if (true){
+  print("Pudim ^^")
+}else{
+    print("Pão de batata.)
+}
+´´´
 
 
-#####SWITCH
+##### SWITCH
 
 Tão conhecido como o IF o SWITCH funciona de maneira parecida mas o subistitue quando o assunto é ter que analizar um conjuto grandes de alternativas, ficaria bem chato ter que fazer um If para cada caso.
 
-- `numero = 3;
+```dart
+numero = 3;
 switch(numero){
 case 1: print("Ratata");
 case 2: print("Ratatu");
 case 3: print("Ratato");
 case 4: print("Ratati");
 default: print("Ratate);
-}`
+}
+´´´
 
 
-#####PRINT()
+##### PRINT()
 De maneira simples é uma função que imprime determinada informação no console.
-- `print("Hello World")`
+
+'print("Hello World")'
 
