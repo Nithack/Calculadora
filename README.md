@@ -61,5 +61,5 @@ default: print("Ratate);
 ##### PRINT()
 De maneira simples é uma função que imprime determinada informação no console.
 
-'print("Hello World")'
+- `print("Hello World");`
 
